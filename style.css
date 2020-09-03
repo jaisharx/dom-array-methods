@@ -43,7 +43,6 @@ button {
 main {
     flex: 1;
     padding: 10px 20px;
-
 }
 
 h2 {
@@ -68,6 +67,6 @@ h3 {
 .person {
     display: flex;
     font-size: 20px;
-    justify-content: space-between;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
