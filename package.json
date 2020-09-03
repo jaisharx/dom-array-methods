@@ -1,7 +1,7 @@
 {
   "name": "dom-array-methods",
   "version": "1.0.0",
-  "description": "",
+  "description": "DOM Array Methods",
   "main": "index.js",
   "scripts": {
     "start": "live-server src"
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/jaisharx/dom-array-methods/issues"
   },
-  "homepage": "https://github.com/jaisharx/dom-array-methods#readme"
+  "homepage": "https://github.com/jaisharx/dom-array-methods#readme",
+  "dependencies": {}
 }
