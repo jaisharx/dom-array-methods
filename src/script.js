@@ -43,8 +43,8 @@ const getRandomUser = async () => {
 
     addData(newUser);
 };
-getRandomUser();
-getRandomUser();
+getRandomUser(); // populating on inital load
+getRandomUser(); // populating on inital load
 
 const doubleUserMoney = () => {
     data = data.map((user) => {
@@ -67,6 +67,11 @@ const showOnlyMillionares = () => {
 };
 
 const calculateEntireWealth = () => {
+    const wealth = data.reduce((acc, user) => (acc += user.money), 0);
+    const wealthEl = document.createElement('div');
+    
+    wealthEl.innerHTML = `<h3>Total Wealth: <strong>${formatNumberToMoney(wealth)}</strong></h3>`;
+    main.appendChild(wealthEl);
 
 };
 
