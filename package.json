@@ -1,0 +1,20 @@
+{
+  "name": "dom-array-methods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisharx/dom-array-methods.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaisharx/dom-array-methods/issues"
+  },
+  "homepage": "https://github.com/jaisharx/dom-array-methods#readme"
+}
